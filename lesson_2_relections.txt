@@ -4,3 +4,21 @@ may be it makes the current directory a git repository. To start tracking files 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area acts an intermediate place between repository and working directory which the developers can use to decide which files should go to repository from working directory by adding corresponding files to the staging area
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I will add the files related to a logical change to the staging area and then commit only those file in a single commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+for each bug we can create a branch and work on it and later we can merge these changes into the main branch
+by this we dont mess with the current feature development going on in the main branch but we will merge our changes into the main branch at a later stage
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are helpful in tracing the commit history of a particular branch and reachability of the commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches results in having all the changes in a single branch. Representing it in a diagram will help us see clearly what is the merge point and what are the components of two branches before merging clearly
+
